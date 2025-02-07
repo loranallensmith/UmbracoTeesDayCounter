@@ -9,7 +9,8 @@ export class UmbracoTeesDayCounterPackageService {
     public static ping<ThrowOnError extends boolean = false>(options?: Options<unknown, ThrowOnError>) {
         return (options?.client ?? client).get<PingResponse, PingError, ThrowOnError>({
             ...options,
-          url: '/umbraco/umbracoteesdaycounterpackage/api/v1/ping'
+            url: '/umbraco/umbracoteesdaycounterpackage/api/v1/ping'
         });
     }
+    
 }
