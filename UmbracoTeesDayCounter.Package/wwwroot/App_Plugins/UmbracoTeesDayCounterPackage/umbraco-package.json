@@ -1,0 +1,14 @@
+{
+  "id": "UmbracoTeesDayCounter.Package",
+  "name": "UmbracoTeesDayCounter.Package",
+  "version": "0.0.0",
+  "allowPackageTelemetry": true,
+  "extensions": [
+    {
+      "name": "Umbraco Tees Day Counter Package Bundle",
+      "alias": "UmbracoTeesDayCounter.Package.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/UmbracoTeesDayCounterPackage/umbraco-tees-day-counter-package.js"
+    }
+  ]
+}

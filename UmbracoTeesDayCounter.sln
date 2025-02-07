@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoTeesDayCounter.Package", "UmbracoTeesDayCounter.Package\UmbracoTeesDayCounter.Package.csproj", "{50205BD2-FBB8-6EF9-A349-14808E264CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Site", "Test.Site\Test.Site.csproj", "{9912130B-6FF9-217C-EBAC-D5F166B0F77F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50205BD2-FBB8-6EF9-A349-14808E264CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50205BD2-FBB8-6EF9-A349-14808E264CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50205BD2-FBB8-6EF9-A349-14808E264CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50205BD2-FBB8-6EF9-A349-14808E264CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9912130B-6FF9-217C-EBAC-D5F166B0F77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9912130B-6FF9-217C-EBAC-D5F166B0F77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9912130B-6FF9-217C-EBAC-D5F166B0F77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9912130B-6FF9-217C-EBAC-D5F166B0F77F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7D13FC9-BFD6-4F6A-BA55-31E85268DDD1}
+	EndGlobalSection
+EndGlobal
