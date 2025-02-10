@@ -13,9 +13,9 @@
     <Authors>Loran Allen Smith</Authors>
     <Title>Umbraco Tees Day Backoffice Counter</Title>
     <Description>Adds a custom HeaderApp to the Backoffice indicating when an UmbracoTeesDay is approaching.</Description>
-    <PackageIcon>./icon.png</PackageIcon
+    <PackageIcon>icon.png</PackageIcon>
     <PackageTags>umbraco umbraco-marketplace</PackageTags>
-    <PackageReadmeFile>./README.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Copyright (c) Loran Allen Smith 2025</Copyright>
     <PackageProjectUrl>https://github.com/loranallensmith/UmbracoTeesDayCounter</PackageProjectUrl>
     <RepositoryUrl>https://github.com/loranallensmith/UmbracoTeesDayCounter</RepositoryUrl>
@@ -37,6 +37,8 @@
 
     <!-- However make the Umbraco-package.json included for dotnet pack or nuget package and visible to the solution -->
     <None Include="Client\public\umbraco-package.json" Pack="false" />
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
   
 </Project>
