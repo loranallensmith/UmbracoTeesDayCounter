@@ -1,0 +1,20 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+    "AuthorDetails": {
+      "Description": "Loran Allen Smith",
+      "Url": "https://github.com/loranallensmith",
+      "ImageUrl": "https://github.com/loranallensmith.png"
+    },
+    "DocumentationUrl": "https://github.com/loranallensmith/UmbracoTeesDayCounter",
+    "Category": "Developer Tools",
+    "IssueTrackerUrl": "https://github.com/loranallensmith/UmbracoTeesDayCounter/issues/",
+    "LicenseTypes": [
+      "Free"
+    ],
+    "PackageType": "Package",
+    "Tags": [
+      "umbraco-community",
+      "h5yr",
+      "umbracoteesday"
+    ]
+  }
