@@ -7,9 +7,20 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>UmbracoTeesDayCounter.Package</PackageId>
-    <Product>UmbracoTeesDayCounter.Package</Product>
-    <Title>UmbracoTeesDayCounter.Package</Title>
+    <PackageId>H5YR.UmbracoTeesDayCounter</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Product>H5YR.UmbracoTeesDayCounter</Product>
+    <Authors>Loran Allen Smith</Authors>
+    <Title>Umbraco Tees Day Backoffice Counter</Title>
+    <Description>Adds a custom HeaderApp to the Backoffice indicating when an UmbracoTeesDay is approaching.</Description>
+    <PackageIcon>./icon.png</PackageIcon
+    <PackageTags>umbraco umbraco-marketplace</PackageTags>
+    <PackageReadmeFile>./README.md</PackageReadmeFile>
+    <Copyright>Copyright (c) Loran Allen Smith 2025</Copyright>
+    <PackageProjectUrl>https://github.com/loranallensmith/UmbracoTeesDayCounter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/loranallensmith/UmbracoTeesDayCounter</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 
