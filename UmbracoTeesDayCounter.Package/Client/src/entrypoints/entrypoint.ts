@@ -3,9 +3,9 @@ import { UmbEntryPointOnInit, UmbEntryPointOnUnload } from '@umbraco-cms/backoff
 // load up the manifests here
 export const onInit: UmbEntryPointOnInit = (_host, _extensionRegistry) => {
 
-  console.log('Hello from my extension 🎉');
+  // console.log('Hello from my extension 🎉');
 };
 
 export const onUnload: UmbEntryPointOnUnload = (_host, _extensionRegistry) => {
-  console.log('Goodbye from my extension 👋');
+  // console.log('Goodbye from my extension 👋');
 };
