@@ -7,7 +7,7 @@ export const manifests: Array<UmbExtensionManifest> = [
   },
   {
     type: "headerApp",
-    alias: "H5YR.UmbracoTeesCounter.HeaderApp",
+    alias: "Our.Umbraco.UmbracoTeesDayCountdown.HeaderApp",
     name: "Umbraco Tees Day Counter",
     element: () => import("../elements/header-app-element"),
     kind: "button",

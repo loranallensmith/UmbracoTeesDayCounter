@@ -2,7 +2,7 @@ import type { CSSResultGroup } from '@umbraco-cms/backoffice/external/lit';
 import { css, html, customElement, state } from '@umbraco-cms/backoffice/external/lit';
 import { UmbHeaderAppButtonElement } from '@umbraco-cms/backoffice/components';
 
-const elementName = 'h5yr-umbraco-tees-header-app';
+const elementName = 'umbraco-tees-header-app';
 @customElement(elementName)
 export class UmbracoTeesHeaderAppElement extends UmbHeaderAppButtonElement {
 	// @state()

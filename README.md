@@ -13,7 +13,7 @@ The code in this project pulls heavily from work done in [OwainWilliams/UmbracoT
 To install this package, add it as a dependency to your site using NuGet.
 
 ```
-dotnet add package H5YR.UmbracoTeesDayCounter
+dotnet add package Our.Umbraco.UmbracoTeesDayCountdown
 ```
 
 ## Contributing
