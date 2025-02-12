@@ -1,4 +1,4 @@
-# UmbracoTeesDay Counter
+# UmbracoTeesDay Backoffice Countdown
 
 This is a package for Umbraco v14+ that adds a HeaderApp showing when there is an upcoming Umbraco Tees Day.
 

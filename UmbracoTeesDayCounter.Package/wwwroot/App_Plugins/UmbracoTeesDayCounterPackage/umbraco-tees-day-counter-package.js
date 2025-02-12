@@ -3,13 +3,13 @@ const e = [
     name: "Umbraco Tees Day Counter Package Entrypoint",
     alias: "UmbracoTeesDayCounter.Package.Entrypoint",
     type: "backofficeEntryPoint",
-    js: () => import("./entrypoint-BSlTz4-p.js")
+    js: () => import("./entrypoint-BbtUKYiT.js")
   },
   {
     type: "headerApp",
-    alias: "H5YR.UmbracoTeesCounter.HeaderApp",
+    alias: "Our.Umbraco.UmbracoTeesDayCountdown.HeaderApp",
     name: "Umbraco Tees Day Counter",
-    element: () => import("./header-app-element-Dooy9mkq.js"),
+    element: () => import("./header-app-element-OjKOsvZi.js"),
     kind: "button",
     weight: 200,
     meta: {

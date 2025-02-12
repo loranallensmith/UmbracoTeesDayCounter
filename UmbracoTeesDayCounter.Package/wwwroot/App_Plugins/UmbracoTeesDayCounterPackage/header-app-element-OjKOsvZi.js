@@ -7,7 +7,7 @@ var I = Object.defineProperty, L = Object.getOwnPropertyDescriptor, v = (e) => {
     (h = e[l]) && (r = (s ? h(t, n, r) : h(r)) || r);
   return s && r && I(t, n, r), r;
 }, S = (e, t, n) => t.has(e) || v("Cannot " + n), U = (e, t, n) => t.has(e) ? v("Cannot add the same private member more than once") : t instanceof WeakSet ? t.add(e) : t.set(e, n), o = (e, t, n) => (S(e, t, "access private method"), n), a, _, m, b, c, y, g, w, k, D, T, x;
-const O = "h5yr-umbraco-tees-header-app";
+const O = "umbraco-tees-header-app";
 let p = class extends f {
   constructor() {
     super(), U(this, a), this._dates = [], this._timeLeft = 0, this.timerInterval = null, fetch("https://api.github.com/repos/OwainWilliams/UmbracoTeesDay/contents/datesFolder/dates.json").then((e) => e.json()).then((e) => {
@@ -174,4 +174,4 @@ export {
   p as UmbracoTeesHeaderAppElement,
   p as element
 };
-//# sourceMappingURL=header-app-element-Dooy9mkq.js.map
+//# sourceMappingURL=header-app-element-OjKOsvZi.js.map
